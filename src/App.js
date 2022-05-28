@@ -18,12 +18,33 @@ const CourseList = ({ courses }) => (
   </div>
 );
 
+const ProfOption = ({ course }) => (
+  <option value ={course.professor}>{course.professor}</option>
+);
+
+const ProfDropdown = ({ courses }) => (
+  <select name="profs" id="profs">
+    { Object.values(courses).map(course => <ProfOption course={ course } />) }
+  </select>
+);
+
+console.log(ctecs.filter(ctec => ctec.professor.includes("Aravindan")))
+console.log(ctecs.filter(ctec => ctec.course_number == 110))
+
 
 const App = () =>  (
   <div>
     <h1>{ ranker.title }</h1>
     <CourseList courses={ ctecs } />
+
+    <form action="/action_page.php">
+      <ProfDropdown courses = {ctecs} />
+      <br></br>
+      <input type="submit" value="Submit" />
+    </form>
+
   </div>
+
 );
 
 export default App;
