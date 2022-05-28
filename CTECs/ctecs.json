@@ -1,0 +1,410 @@
+{
+    "class_1" : {
+        "department" : "COMP_SCI",
+        "course_number": 212,
+        "course name": "Mathematical Found of Comp Sci",
+        "quarter": "winter",
+        "year": 2021,
+        "professor": "Aravindan Vijayaraghavan",
+        "Courses Audience": 95,
+        "Responses Received": 78,
+        "Response Ratio": 82.1,
+        "Course Questions" : {
+            "overall rating of the instruction": {
+                "Response Count": 73,
+                "Mean": 4.89
+            },
+            "overall rating of the course": {
+                "Response Count": 73,
+                "Mean": 4.12
+            },
+            "how much you learned": {
+                "Response Count": 71,
+                "Mean": 4.79
+            },
+            "effectiveness of the course in challenging you intellectually": {
+                "Response Count": 72,
+                "Mean": 5.33
+            },
+            "effectiveness of the instructor in stimulating your interest in the subject": {
+                "Response Count": 72,
+                "Mean": 4.40
+            }
+        },
+        "Time-Survey Question": {
+            "average number of hours per week spent on this course outside of class and lab time":{
+                "3 or fewer":1,
+                "4-7 ":30,
+                "8 - 11": 31,
+                "12 - 15":12,
+                "16 - 19": 1,
+                "20 or more": 1
+            }
+        },
+        "Essay Questions": {
+            "summarize your reaction to this course": [
+                "The concepts showed no real–world applications. Class was hard",
+                "The material in this course was quite difficult, but grading was surprisingly lenient. The problem sets were tricky, but the TA's office hours always helped a lot. The class was held on Gather.town, which I found to be very cumbersome and glitchy. We experienced so many problems with it that the TA ended up holding his office hours on Zoom instead. Participation was graded so attendance in Gather.town classes was mandatory, but often fairly useless. There was not much time to work on the in–class exercises, and my group was often stuck waiting for help from a TA.",
+                "This course was different from what I expected. It's entirely math – no coding at all. And right from the get–go it can be extremely difficult. I took an entire class on proofs the quarter before, and still some of the early assignments were challenging. There's really a lot to take in those first couple weeks (and I imagine it's way harder if you haven't taken Math 300 like me). After that, things get a bit more manageable, but I have to recommend starting as soon as possible on the assignments because it might take a few days to think of the solutions. Also, the class was taught in flipped format on gather.town. I was unsure about this at first, but I actually think I enjoyed it more than Zoom just because it gives a chance to actually talk to classmates, which is something most virtual classes lack.",
+                "Challenging course for those unfamiliar with proofs. Practice brings a lot of improvement.",
+                "This class sucks if you hate math, if you enjoy torture take it, good luck.",
+                "This class was pretty difficult, definitely one with a steep learning curve and gets more manageable after a few weeks but I'd say slightly easier than CS 213. Aravindan was a good teacher, nothing bad to say about him.",
+                "This course is ok. You do have to spend some time on the assignments.",
+                "I had a pretty scared reaction to this course, I had never done math like this before and it was really hard to grasp at first. Then it just got harder. I think this class takes a lot of time and effort with the peer mentors/prof to really understand.",
+                "This class was pretty solid! I felt like most of the material felt not too complicated. The only two concerns is that you should probably take linear algebra before taking this course even though it isn't formally a pre–req, and also the proof papers themselves take a lot of time to type up (although they aren't generally too difficult). The exams weren't too tough either.",
+                "This class is tough, but doable, as long as you take full advantage of office hours. It starts off seeming like too much to handle, but if you persevere it can be a rewarding class.",
+                "This class was not a good experience. The flipped classroom format the professor used made me feel less engaged in the lectures and the class time felt somewhat pointless because most of it was spent on group problems so I just felt lost a lot of the time. I am also not entirely sure what the point of the class was since it was never explained why the things we were doing would be relevant in computer science.",
+                "This course is really interesting and well taught, and the professor lectures very well and engages the class despite the online format. The homework isn't too intensive and the exams are challenging but fair. The only thing I would say is that the class goes over many topics in a short amount of time, so there's a lot to remember.",
+                "the class pretty hard but it was managable. i like the prerecorded lectures but gather.town was a terrible platform and the lectures there were a waste of time because no one wanted to talk in the groups. the midterm and final were not as hard as the problem sets and they are open notes",
+                "If you're not too good at math, you're in for a fun time. Honestly, this class is pretty doable coming from someone who isn't too great at math. The psets took a lot of time and I went the office hours pretty often which were helpful. Just put in the time/effort and this class will be alright. The class can get a bit overwhelming towards the end though. It started to feel like every class we'd be doing a new topic whereas in the beginning we would spend a week learning the topic (2 classes). The midterm/final were also pretty doable. If you're just aiming to pass this class it's very doable, getting an A/A– though I think is pretty tough though.",
+                "This course was not fun. The assignments are very difficult and time consuming, and the material is very dense and at times fairly abstract. That said, I thought the professor did about as good of a job as possible of teaching the information in lecture. I would've rather he just lectured live though, instead of in recordings.",
+                "The problem sets were fairly difficult to do without any hints/help. Once my group realized how big of a difference office hours made, we started going multiple times a week to get help with the problem sets. The exams were a bit easier than the problem sets because they mainly dealt with things similar to examples from lecture. Aravindan was a good professor and I think he explained things fairly well. He was also very nice.",
+                "the professor is amazing. the hw assignments are hard. watch the lectures, do the quizzes and hw –– B+/A– guaranteed",
+                "Hard class.",
+                "Grading is very fair. Aligns pretty well with the curriculum for 214 so if you need to double in the core I'd recommend this combo. Overall, not as bad as people say. Go to office hours!",
+                "Professor is amazing and the TA was super nice. Great class, take it with this professor",
+                "Class covered a lot of content but not deeply, problem sets were incredibly time consuming and flipped classroom + mandatory participation during live class time was frustrating as the problem sets already ruined my Saturdays.",
+                "I felt that this course taught me a lot about problem solving and thinking abstractly.",
+                "This is a hard class and they did it in the flipped format so it was hard getting the motivation to go to classes but you needed the participation grade. I think they could've been more helpful in preparing for exams like giving more examples or having a review session with TAs. But overall TAs were super helpful"
+            ]
+        }
+    },
+
+    "class_2" : {
+        "department" : "COMP_SCI",
+        "course_number": 110,
+        "course name": "Intro to Computer Programming",
+        "quarter": "winter",
+        "year": 2022,
+        "professor": "Connor Bain",
+        "Courses Audience": 190,
+        "Responses Received": 145,
+        "Response Ratio": 76.3,
+        "Course Questions" : {
+            "overall rating of the instruction": {
+                "Response Count": 141,
+                "Mean": 5.57
+            },
+            "overall rating of the course": {
+                "Response Count": 140,
+                "Mean": 5.04
+            },
+            "how much you learned": {
+                "Response Count": 143,
+                "Mean":   5.14
+            },
+            "effectiveness of the course in challenging you intellectually": {
+                "Response Count": 143,
+                "Mean":  4.94
+            },
+            "effectiveness of the instructor in stimulating your interest in the subject": {
+                "Response Count": 143,
+                "Mean": 5.31
+            }
+        },
+        "Time-Survey Question": {
+            "average number of hours per week spent on this course outside of class and lab time":{
+                "3 or fewer":47,
+                "4-7 ":73,
+                "8 - 11": 18,
+                "12 - 15":5,
+                "16 - 19": 0,
+                "20 or more": 1
+            }
+        },
+        "Essay Questions": {
+            "summarize your reaction to this course": [
+                "Professor Bain is a great professor! He is knowledgeable and truly cares about the success of his students. Highly recommend taking a class with him!",
+                "It was a fun course to start learning to code through python. Exams are pretty good if you go through most of the lecture quizzes and practice tests.",
+                "very good intro class, prof Bain is Nice and lots of extra credit opps",
+                "Great professor, manageable workload, interesting projects, not a hard A",
+                "I thought this course was a really good class for beginners. It has a lot of TAs, so there are always office hours to go to. Also, the professor explains things in depth and is receptive to students, so getting help shouldn't be a problem. Personally, I think the class is an easy A but it depends on the student as always. Not a big time commitment though.",
+                "The professor is great, he's interactive and understanding. There are two assignments a week, 2 projects and 3 quizzes, one of each can be dropped. Lots of work, but that's understandable considering you are learning a new language. I had absolutely no prior compsci experience, and I still did pretty well in this class.",
+                "I was truly able to get a grasp on the basics of computer science, which is exactly what I wanted out of this course",
+                "There isn't a lot of pressure while taking this course, and there's a LOT of leniency. Work thoroughly on projects and take advantage of extra credit opportunities in the projects. Quizzes don't matter as much but are still helpful.",
+                "I really enjoyed this course. It was very straightforward and helped give me a strong understanding of programming basics and Python 101. It was pretty easy and sometimes lectures moved a bit slower than I would I have liked (I feel like we could have covered more material if we went a bit faster) but overall I feel like this class was interesting and valuable as a non–CS major. Plus Prof. Bain is a great instructor!",
+                "This is a good intro to the world of coding. It can be difficult to understand at first if you have no prior knowledge, but Professor Bain did a really good job explaining concepts if you looked for more help. I had fun with the projects and the grading system is fair for people who have never tried coding.",
+                "The HWs and projects were way more challenging than anything discussed in lectures. I wish the lectures would've been more comprehensive and gone further into more difficult material so that we could be prepared for the complexity of the homeworks and projects.",
+                "Professor Bain was extremely helpful, clear and succinct in his explanation of course materials and instructing of logistics. It's not too hard of a class if you go to your tutorial section and office hours.",
+                "It was an easy class and interesting because the professor was so good at explaining things in engaging ways",
+                "I really enjoyed this class and learned the logic needed for computer programming. I thought all assignments were very fair and expectations were effectively communicated. The instructor and TAs were very available and helpful.",
+                "This class taught A LOT. It's super flexible so super easy to get an A in. I had no prior experience to programming before this class, so it was quite difficult for me at times but the professor and peer mentors were all super helpful! Expect to put work in – I was in office hours almost every day to get help on assignments.",
+                "Highly recommend taking this course!!!! Definitely don't be intimidated if you have no experience because I didn't. This class moves pretty slowly, but you can always put more effort into the projects and home works if you want more of a challenge. There is also a lot of support! I really enjoyed it."
+            ]
+        }
+    },
+
+
+    "class_3" : {
+        "department" : "COMP_SCI",
+        "course_number": 111,
+        "course name": "Fund Comp Prog",
+        "quarter": "winter",
+        "year": 2022,
+        "professor": "Sara Owsley",
+        "Courses Audience": 260,
+        "Responses Received": 183,
+        "Response Ratio": 70.4,
+        "Course Questions" : {
+            "overall rating of the instruction": {
+                "Response Count": 179,
+                "Mean": 5.50
+            },
+            "overall rating of the course": {
+                "Response Count": 179,
+                "Mean":  4.93
+            },
+            "how much you learned": {
+                "Response Count": 180,
+                "Mean": 4.78
+            },
+            "effectiveness of the course in challenging you intellectually": {
+                "Response Count": 179,
+                "Mean":   4.64
+            },
+            "effectiveness of the instructor in stimulating your interest in the subject": {
+                "Response Count": 178,
+                "Mean": 5.23
+            }
+        },
+        "Time-Survey Question": {
+            "average number of hours per week spent on this course outside of class and lab time":{
+                "3 or fewer":66,
+                "4-7 ":92,
+                "8 - 11": 21,
+                "12 - 15":1,
+                "16 - 19": 1,
+                "20 or more": 0
+            }
+        },
+        "Essay Questions": {
+            "summarize your reaction to this course": [
+                "Sara is one of the best professors. Really understands the needs of students, gives helpful advice on careers and just navigating the CS class successfully. She dropped some of the lectures during a week which was difficult for students cos of midterms and all. She held one on one student advising sessions which were really helpful!",
+                "I really enjoyed this course. I was a little bit familiar with coding before taking this class, but I feel so much more comfortable with it now. Sara is a great professor who cares a lot about whether you understand the course material. She is so good at answering questions and makes herself available if you ever need help. There are also so many peer mentor office hours which makes it really easy to get help if you are stuck on homework or studying.",
+                "The professor was amazing. The course load was very manageable but the tests were very challenging.",
+                "I personally don't prefer the asynchronous style of the class, but the professor is very lenient in terms of time given to complete assignments and she clearly emphasizes learning over test–taking",
+                "This class was very difficult for me as it was my first Computer Science course. It was definitely not an easy A for me, although it is helpful that about 50% of the grade is comprised of assignments, attendance, and mini quizzes, all of which are simple to gain full credit for. Professor Sood is a very helpful instructor and she wants the best for her students. The TA's are really attentive, patient, and supportive as well. Definitely go to office hours! I also highly recommend taking this class with friends or making friends to work on the problem sets with. Overall, I would only recommend taking this course if you have experience with Comp Sci.",
+                "Low time commitment and relatively straight forward class; not super easy in absolute terms, but relative to other courses this one is pretty easy. Professor Owsley explains the material very well both during lectures and in the tutorial videos, but she does not address questions or concerns too well and always refers you to one of the peer mentors.",
+                "This class was fine. Sara is a good prof but the way the class is structured is not that great. First of all it's taught in Racket which while they say is a powerful programming language, is completely useless and you will never use again. It's reversed classroom, where you learn outside of class and work on problems in class, and usually I think this is fine but in this class i didn't like it at all. There are there usually 2 20–30 minute lectures to watch before every class AND a canvas Quiz, which would be fine except the class attendance is also mandatory and graded so it's basically just doubling the amount of class. And in class all we do is work on homework/ungraaded assignments, which i would rather just do outside of class, so it would just be better all around if the material was actually just taught in class. Exams are pretty fair so at least there's that. Take this class if you must, it'll be fine and is easier that most compsci classes, but i dont feel like i came out of it with much applicable knowledge and it was pretty annoying the whole time.",
+                "I liked it.",
+                "Chill intro programming course.",
+                "There's a bit of a learning curve at the beginning of the quarter when you're first adjusting to Racket, but the more you practice, the more familiar it becomes. Sara was great at explaining topics and was accommodating; there were also a lot of peer mentor office hours that were super helpful. The weekly exercises were pretty challenging, but nothing impossible with office hours. Overall, I would recommend this course to anyone who is looking to major in CS.",
+                "I loved Prof. Sood — if you want to take CS 111, take it with her!",
+                "TAKE THE CLASS WITH SARA SOOD. Only my second quarter here, but definitely one of the best professors. I didn't have a lot of experience going in and the class was super doable, focus during class and watch the videos, you'll be fine.",
+                "Sara is a really good professor and she genuinely cares about her students and wants them to succeed. This was a pretty easy intro CS class and I definitely recommend taking it with Sara",
+                "I'm not as interested in CS generally and took the class as a prereq for other majors. I have taken a year of java in high school so the class is not a hard one at all; tho it takes some time to adjust to Racket. Weekly exercises are the major assignment; 2 tests each is 20% and these are relatively easier.",
+                "Great class, great teacher, great lectures, great TAs, highly recommend if interested in Comp sci",
+                "Oh my god Professor Sarah is the absolute best. Take this class with her. She is so helpful, makes sure you understand everything, her lecture videos are easy to follow, and she really cares about you and tried to get to know as many of the 250ish kids in her class as she could. Tests are easy if you study and the exercises are guaranteed 100s if you go to office hours and get them right.",
+                "I didn't really like the flipped classroom situation since we didn't really learn much in class, but it was also good because it forced me to get started on assignments that I probably would've started the day before it was due.",
+                "Overall, pretty good course. It's a prereq so most people need to take it. It's in Racket which is somewhat odd/different, but you do learn the very basic coding logic. If you're doing python after this, that is much better! Also Sara Sood is SO nice, you should try to talk to her one on one at least once. She is very encouraging, whether you're a CS major/minor/just taking it for different reason.",
+                "Engaging",
+                "This course requires a lot of self motivation as the lessons are meant to be learning outside of class, and in class is time to work on assignments. I really enjoyed how collaborative this course was. It was a great introduction to comp sci and Sarah was an amazing teacher – very understanding and supportive!",
+                "this class was fine. racket kind of sucks but its not that hard to do well in it especially if u take 110 first"
+
+            ]
+        }
+    },
+
+
+
+    "class_4" : {
+        "department" : "COMP_SCI",
+        "course_number": 212,
+        "course name": "Mathematical Found of Comp Sci",
+        "quarter": "winter",
+        "year": 2022,
+        "professor": "Benjamin Golub",
+        "Courses Audience": 110,
+        "Responses Received": 93,
+        "Response Ratio": 84.5,
+        "Course Questions" : {
+            "overall rating of the instruction": {
+                "Response Count": 87,
+                "Mean":   4.63
+            },
+            "overall rating of the course": {
+                "Response Count": 89,
+                "Mean":  3.91
+            },
+            "how much you learned": {
+                "Response Count": 89,
+                "Mean": 4.64
+            },
+            "effectiveness of the course in challenging you intellectually": {
+                "Response Count": 89,
+                "Mean":   5.48
+            },
+            "effectiveness of the instructor in stimulating your interest in the subject": {
+                "Response Count": 88,
+                "Mean":   4.42
+            }
+        },
+        "Time-Survey Question": {
+            "average number of hours per week spent on this course outside of class and lab time":{
+                "3 or fewer":1,
+                "4-7 ":9,
+                "8 - 11": 23,
+                "12 - 15":27,
+                "16 - 19": 16,
+                "20 or more": 16
+            }
+        },
+        "Essay Questions": {
+            "summarize your reaction to this course": [
+                "Problem sets can be long and difficult. Exams are hard. Seems standard for CS 212. Golub is an excellent lecturer.",
+                "This course is obviously hard but with enough effort and textbook reading it is manageable. Golub is a great professor who keeps you engaged during the entire class.",
+                "Very demanding and difficult class, but it's worth it, the math content is really interesting. Learning Overleaf is also worth it. Prof Golub is great.",
+                "Good lecturer, but exhausting to deal with. A lot of work, this iteration of 212 was much harder since the professor challenged the students more. That being said, if you can handle a difficult course, take it with Golub since you get a more rigorous training.",
+                "Rather difficult class, not sure it was any harder or easier than with any other professor, but I really liked Golub's teaching style. Going to class actually did help, which isn't always the case for classes like these.",
+                "This course was very difficult –– However, it was also very interesting. Go to lecture! Professor Golub made this class the most interesting lecture class I have ever taken, he is extremely passionate about the material.",
+                "LOVED this class. It caused me so much pain and I am currently crying while writing this because I probably failed the final lol but it's also one of the best classes I've ever taken. The content is so interesting, and you really do leave with a good understanding of a lot of fundamental math concepts. It is a huge time commitment though. This is by far the hardest iteration of 212 compared to other professors', both in terms of content and workload. Even as someone who's done proofs before, the PSETs took a solid 20 hours every week, and it was a struggle to even get 50s on the exams. The stress from this class probably took years off my life. BUT I still really enjoyed the course overall. Like this class had me reading the textbook for fun because the material was actually so interesting to think about. Ben is also hands down one of my favorite professors here –– he is genuinely such a sweet person and so enthusiastic about what he teaches. His lectures were always engaging and really made you excited to learn. This is just a very very hard class and all of your free time is consumed by PSETs, but Ben is the best and you really do learn a lot of very cool things! I think if you can get through this class, you can do anything :)",
+                "This class is pretty difficult. There is a heavy curve on exams since the averages were pretty low. The problem sets are challenging and time consuming, but pretty interesting to think through. You are encouraged to type up answers to the problem set in LaTeX, which honestly ended up being the most time consuming part of completing them. I know many people who just handwrote answers and did fine. It is difficult to study for exams because of the conceptual nature of the class; you kind of have to go in just hoping that you learned enough through the problem sets.",
+                "This class was relatively difficult. However, Professor Golub was a good professor and the TA's and PM's really made the class doable.",
+                "I feel like one big thing for this class was that previous classes had a lot less work compared to us. Every question has at least abc, and sometimes d and e. This makes it really time consuming since we have to do 15–20 proofs per homework",
+                "Way too work intensive. I would recommend watching Albert Meyer's MIT lectures if available for whatever subject you are on. Golub's lectures consist of him giving examples and then never solving them, calling them practice (in addition to the problem sets and readings which take 10+ hrs a week). Good luck.",
+                "Very time consuming class. The course content was more interesting than I expected",
+                "If you have taken proof–based math classes before and enjoy math, the class might be okay for you. However, I don't think it really treats students who have never written proofs before fairly, and this is a large portion of the class. I've heard from friends that the class is easier with different profs, so maybe wait for a different quarter to take it if you're not very math–oriented. As a mathy person, the class was alright for me but the weekly problem sets did take a solid 3–4 hours of my time.",
+                "I learned how to think like a mathematician.",
+                "Professor Golub meant really well but this class could have gone a lot better. I understand that we're his first experience with this course, but there were constant errors and typos on the homeworks that would sometimes only be corrected a few days before they were due. There was constant miscommunication about grading (for example, repeatedly saying leading up to the midterm that a 70% would be an A with the rest as "bonus," but then actually making the cutoff for an A an 80%.) As a math major forced into taking this class for a CS degree, I also just think that there was a lot of disorganization in terms of material. At this point in the course, we're expected to draw from multiple textbooks in what we study and aren't given any definitions in lecture. This makes completing the problem sets extremely annoying, because on top of problems being assigned in different books, there are different definitions within each that, although not necessarily contradict one another, can confound so many concepts. This class was not enjoyable, and I didn't get much out of it. I hope this goes better for whatever group takes it next.",
+                "To be honest, I did learn a LOT in this class. However, this class took an insane amount of time outside of class. The problem sets each week got longer and longer despite him saying that it gets easier after the "trial by fire" problem set in week 3. At one point, we had a problem set where there was 5 questions but each question had subparts and the subparts themselves had subparts that were all proofs. Every week I am in misery because of the problem set and it consumes my entire life and soul. The exams are also quite brutal. For the class itself, Golub just sometimes gave up on Fridays and would post a sequence of Youtube videos? He would also get confused sometimes in the middle of class and then tell us something extremely questionable that he has to correct the following class. For the most part, he was an alright lecturer and this class has potential to be a good class with some adjustments (I would cut him some slack since this was his first time running this class).",
+                "The best class that I've taken in Northwestern so far. Prof Golub was very interactive and the content was very interesting. The problem sets take a lot of time but help you understand the lecture. Although it is definitely a hard class, it improved my thinking and problem solving skills a lot. Take it from Benjamin Golub if you can.",
+                "This class is very difficult and time consuming. The first part of the quarter was easy enough as it introduced the types of proofs and applying those to simple number theory examples, but the rest of the quarter ramps up exponentially when talking about matching, graphs, and probability spaces. The homeworks can take easily more than 15 hours per week, and office hours are essential. Golub is very passionate about the subject and will thus assign more problems/homeworks than the syllabus suggests. He loves his graphs so be prepared to see lots of problems related to those. Office hours and finding a collaborative group to work with are essential."
+            ]
+        }
+    },
+
+
+    "class_5" : {
+        "department" : "COMP_SCI",
+        "course_number": 110,
+        "course name": "Intro to Computer Programming",
+        "quarter": "winter",
+        "year": 2021,
+        "professor": "Sarah Van Wart",
+        "Courses Audience": 193,
+        "Responses Received": 153,
+        "Response Ratio": 79.3,
+        "Course Questions" : {
+            "overall rating of the instruction": {
+                "Response Count": 150,
+                "Mean":  5.69
+            },
+            "overall rating of the course": {
+                "Response Count": 152,
+                "Mean": 5.42
+            },
+            "how much you learned": {
+                "Response Count": 151,
+                "Mean": 5.39
+            },
+            "effectiveness of the course in challenging you intellectually": {
+                "Response Count": 152,
+                "Mean":   5.04
+            },
+            "effectiveness of the instructor in stimulating your interest in the subject": {
+                "Response Count": 151,
+                "Mean": 5.55
+            }
+        },
+        "Time-Survey Question": {
+            "average number of hours per week spent on this course outside of class and lab time":{
+                "3 or fewer":66,
+                "4-7 ":73,
+                "8 - 11": 13,
+                "12 - 15":1,
+                "16 - 19": 0,
+                "20 or more": 0
+            }
+        },
+        "Essay Questions": {
+            "summarize your reaction to this course": [
+                "Great foundation for learning the Python language at a great pace with some challenging elements",
+                "This class is super easy. Highly recommend!",
+                "Sarah is a wonderful human. She is a great introductory comp sci professor and the class is balanced really well in terms of learning information and assignments",
+                "This course is so fun and you learn so much! Definitely one of those things where you get out of it what you put into it, but there’s so much support (literally like office hours are available for hours every day) that it is doable!",
+                "I was terrified going into this class because I had zero CS experience, but I ended up loving it. Sarah is such a great professor, and made the course very beginner–friendly. I feel like I have a very solid foundation of CS skills now. The assignments are reasonable and can be interesting if you are engaged in them. All of the TAs are also super helpful – go to office hours with any questions and they'll help you fix your code/answer any questions. I would highly recommend this class for anyone who needs a distro, or just wants to learn about CS.",
+                "This is one of the best classes I've ever taken––and I couldn't be more surprised given its content. I was so nervous coming into the class having never programmed before. I not only left the class with a solid intro to python, but an actual desire to continue learning about computer science and possibly even taking more classes. Sarah and the peer mentors actually made the learning fun and it always felt extremely rewarding. If you put in the effort, it's not hard at all to do well in the class. But more than that, if you put in the effort, you'll leave the class a better programmer, student, and (honestly) person.",
+                "The tutorials and office hours were very helpful, and there was a wide variety of office hour times. The instruction was very effective and everyone wanted to make sure you understood anything you were confused about.",
+                "it was cool",
+                "Ideal for programming beginners! Sarah is really nice, nothing super challenging unless you personally want to go the extra mile, so many opportunities for bonus points that it seems like you're basically guaranteed an A.",
+                "I appreciated the flexibility of the course attendance and grading system. I liked that help was readily available throughout the quarter.",
+                "For an intro class, 110 will give you all the tools you need in order to begin fully learning coding. You gain a solid grasp of python.",
+                "My goal in taking this course was to simply grow in my knowledge and abilities. I had some background in coding prior to this class, and with this course's focus on gradual learning and implementation using fun and engaging exercises, I was able to develop my skills and reach this important goal, while being challenged intellectually!",
+                "I had to take this course for my Linguistics major, and I wasn't super happy about it because I am not a STEM person. But Sarah was truly amazing. She is so enthusiastic and ready to help everyone. I just recommend taking advantage of office hours and the helpful TAs. This is a challenging class if you've never done programming before, but it's possible if you keep up with the pre– recorded lectures and tutorials!",
+                "Fun intro comp sci course, and you will learn a lot about beginning with Python. Lots of office hour times available so there were always people to help if you got stuck with your code.",
+                "this course was so much better than i anticipated, especially since i had no prior coding experience. you get what you put into it, but sarah is so passionate she really makes you want to try. i really enjoyed this course and it very much is possible to get an A in this class as long as you stay on top of lectures and hw assignments/tutorials.",
+                "This class is really nice. Prof van Wart is really awesome and the class is set up to maximize student's learning and success. The only \"negative\" is that it can sometimes seem a little too slow–moving, but that's just because its the most intro class into computer science",
+                "I knew nothing about coding going in, but Sarah and her team really break everything down for you and help every step of the way. Lots of available office hours and opportunities for help. Weekly homeworks, tutorials (in–class work), a few quizzes, and two projects. If you keep up with the work, it's totally manageable.",
+                "An A is definitely attainable in this course even if you have 0 coding/tech experience. There are just a lot of assignments that you’ll need to keep track of. But Sarah is an amazing professor who really cares about her students learning.",
+                "Professor and TAs were super accessible at all times, assignments were tough but not unfair, and hard work was rewarded.",
+                "meh",
+                "Before this course, I did not have any experience with computer programming. However, the way this class was set up made it very easy to learn basic coding in python. I really enjoyed the homework assignments and projects because each one allowed us to put our own creative spin to it. Additionally, the tutorials were very helpful for understanding the concepts each week. The professor is very enthusiastic and willing to answer any questions or help with confusing aspects of the course. Overall, I highly recommend this class if it is your first time taking computer science."
+
+            ]
+        }
+    },
+
+    "class_6" : {
+        "department" : "COMP_SCI",
+        "course_number": 130,
+        "course name": "Tools and Tech WWW",
+        "quarter": "spring",
+        "year": 2021,
+        "professor": "Sarah Van Wart",
+        "Courses Audience": 49,
+        "Responses Received": 34,
+        "Response Ratio": 69.4,
+        "Course Questions" : {
+            "overall rating of the instruction": {
+                "Response Count": 33,
+                "Mean":  5.79
+            },
+            "overall rating of the course": {
+                "Response Count": 32,
+                "Mean":  5.53
+            },
+            "how much you learned": {
+                "Response Count": 32,
+                "Mean":   5.66
+            },
+            "effectiveness of the course in challenging you intellectually": {
+                "Response Count": 32,
+                "Mean":    5.50
+            },
+            "effectiveness of the instructor in stimulating your interest in the subject": {
+                "Response Count": 33,
+                "Mean":   5.79
+            }
+        },
+        "Time-Survey Question": {
+            "average number of hours per week spent on this course outside of class and lab time":{
+                "3 or fewer":12,
+                "4-7 ":19,
+                "8 - 11": 3,
+                "12 - 15":0,
+                "16 - 19": 0,
+                "20 or more": 0
+            }
+        },
+        "Essay Questions": {
+            "summarize your reaction to this course": [
+                "This class was super interesting. It was super manageable if you have zero coding experience. Sarah is a great professor who is super excited about the material we discuss and is always willing to help if you have questions or issues with your code. After this class, I have a solid foundation for the basics of building a website.",
+                "Please take this class! Prof. Van Wart is very helpful, cheerful, and open to questions. She is very good at explaining how the website works.",
+                "This is a great class! I highly recommend it for all majors and skill levels.",
+                "this class doesn't count for the cs major/minor but if you're trying to get started in web development, this is probably the best class to take. the weekly assignments aren't very hard (and there are only 4 of them before the final project, which you're given 2–3 weeks on) but completing them will give you a pretty solid grasp of the html/css/javascript basics. the lectures themselves can be dry, so spending 20–ish minutes before class watching the videos and doing the readings and getting a slightly different explanation/perspective helps get the material to stick better. sarah encourages you to explore on your own beyond the homework requirements, which is what makes this class worthwhile for me. there are so many resources and topics introduced to learn more about if something catches your eye. also, the final project is basically whatever you want, which can be a really great opportunity to put together a resume project (you have the full support of the course staff to answer questions!!).",
+                "This course is fun if you want to gain some experience or introduce yourself to web design. However, the course itself does not necessarily structure itself to be very organized. Each week, I would have to pick part the lectures to figure out what I can use for the homework and for my larger project, which can be intimidating if this is a totally new topic to you (as it was for me).",
+                "Prof Sarah is very enthusiastic and understanding. The course is solely meant for the students to learn about website development and focuses on what the students want to learn. It’s a flexible class and fun!",
+                "This is a really great course and Sarah is a great prof. She is always really helpful and there's plenty of opportunities for support, etc. This class is great because it gives you tools and then lets you get creative with your final project. Takes a couple hours each week to do homework and the project, but definitely worth it.",
+                "great class. i wished sarah did more live coding to show us the syntax of some of the coding languages we had to use. I'm still very iffy with javascript and mildly proficient in CSS and HTML. Both Sarah and the peer mentors were great.",
+                "This class is a great introduction or refresher for HTML, CS, and JavaScript with some other conceptual things sprinkled in. Sarah was a great professor who was happy to help us propose and pursue a final project of our choice at the end of the quarter. Iif you are completely new to computer science expect a steeper learning curve as the class moves really fast.",
+                "I thought that this course was challenging and the workload was manageable, but there could have been more explanation and help during sections.",
+                "I have taken other classes with Sarah and I love her so much she is one of my favorite professors at Northwestern. If you do not have a lot of coding experience and are interested in beginner web design I definitely recommend taking this class. There's a few homeworks and tutorials every week and one final project where you get to design your own website. It's not too much work and Sarah and the TAs are super helpful and want you to succeed.",
+                "The course is structured very well and extremely intuitively. It is not difficult to figure out what is due when, and the assignments make a lot of sense (i attended a lot of office hours to make sure I was completing things, though.)",
+                "I learned so much in this course and I had no web design experience before. Would highly recommend it.",
+                "Sarah is such a great professor and makes herself very accessible to us! It's a great overview of web design and leaves a lot of openings for you to continue learning outside of the class."
+            ]
+        }
+    }
+
+
+}
