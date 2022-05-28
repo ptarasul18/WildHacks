@@ -6,11 +6,6 @@ const ranker = {
   title: "CTEC Course Ranker"
 };
 
-const Banner = ({ title }) => (
-  <h1>{ title }</h1>
-);
-
-
 const Course = ({ course }) => (
   <div>
     <p>{course.department} {course.course_number} by {course.professor} in {course.quarter} {course.year}</p>
