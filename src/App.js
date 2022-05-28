@@ -1,12 +1,33 @@
 import React from 'react';
 
+const ctecs = require('./ctecs.json');
+
 const ranker = {
   title: "CTEC Course Ranker"
 };
 
+const Banner = ({ title }) => (
+  <h1>{ title }</h1>
+);
+
+
+const Course = ({ course }) => (
+  <div>
+    <p>{course.department} {course.course_number} by {course.professor} in {course.quarter} {course.year}</p>
+  </div>
+);
+
+const CourseList = ({ courses }) => (
+  <div>
+  { Object.values(courses).map(course => <Course course={ course } />) }
+  </div>
+);
+
+
 const App = () =>  (
   <div>
     <h1>{ ranker.title }</h1>
+    <CourseList courses={ ctecs } />
   </div>
 );
 

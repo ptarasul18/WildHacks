@@ -6,33 +6,33 @@
         "quarter": "winter",
         "year": 2021,
         "professor": "Aravindan Vijayaraghavan",
-        "Courses Audience": 95,
-        "Responses Received": 78,
-        "Response Ratio": 82.1,
-        "Course Questions" : {
-            "overall rating of the instruction": {
-                "Response Count": 73,
+        "audience": 95,
+        "received": 78,
+        "response_ratio": 82.1,
+        "Course_Questions" : {
+            "instruction": {
+                "responses": 73,
                 "Mean": 4.89
             },
-            "overall rating of the course": {
-                "Response Count": 73,
+            "course": {
+                "responses": 73,
                 "Mean": 4.12
             },
-            "how much you learned": {
-                "Response Count": 71,
+            "learned": {
+                "responses": 71,
                 "Mean": 4.79
             },
-            "effectiveness of the course in challenging you intellectually": {
-                "Response Count": 72,
+            "challenging": {
+                "responses": 72,
                 "Mean": 5.33
             },
-            "effectiveness of the instructor in stimulating your interest in the subject": {
-                "Response Count": 72,
+            "stimulating": {
+                "responses": 72,
                 "Mean": 4.40
             }
         },
-        "Time-Survey Question": {
-            "average number of hours per week spent on this course outside of class and lab time":{
+        "Time_Question": {
+            "hours":{
                 "3 or fewer":1,
                 "4-7 ":30,
                 "8 - 11": 31,
@@ -41,7 +41,7 @@
                 "20 or more": 1
             }
         },
-        "Essay Questions": {
+        "Essay_Questions": {
             "summarize your reaction to this course": [
                 "The concepts showed no real–world applications. Class was hard",
                 "The material in this course was quite difficult, but grading was surprisingly lenient. The problem sets were tricky, but the TA's office hours always helped a lot. The class was held on Gather.town, which I found to be very cumbersome and glitchy. We experienced so many problems with it that the TA ended up holding his office hours on Zoom instead. Participation was graded so attendance in Gather.town classes was mandatory, but often fairly useless. There was not much time to work on the in–class exercises, and my group was often stuck waiting for help from a TA.",
@@ -77,33 +77,33 @@
         "quarter": "winter",
         "year": 2022,
         "professor": "Connor Bain",
-        "Courses Audience": 190,
-        "Responses Received": 145,
-        "Response Ratio": 76.3,
-        "Course Questions" : {
-            "overall rating of the instruction": {
-                "Response Count": 141,
+        "audience": 190,
+        "received": 145,
+        "response_ratio": 76.3,
+        "Course_Questions" : {
+            "instruction": {
+                "responses": 141,
                 "Mean": 5.57
             },
-            "overall rating of the course": {
-                "Response Count": 140,
+            "course": {
+                "responses": 140,
                 "Mean": 5.04
             },
-            "how much you learned": {
-                "Response Count": 143,
+            "learned": {
+                "responses": 143,
                 "Mean":   5.14
             },
-            "effectiveness of the course in challenging you intellectually": {
-                "Response Count": 143,
+            "challenging": {
+                "responses": 143,
                 "Mean":  4.94
             },
-            "effectiveness of the instructor in stimulating your interest in the subject": {
-                "Response Count": 143,
+            "stimulating": {
+                "responses": 143,
                 "Mean": 5.31
             }
         },
-        "Time-Survey Question": {
-            "average number of hours per week spent on this course outside of class and lab time":{
+        "Time_Question": {
+            "hours":{
                 "3 or fewer":47,
                 "4-7 ":73,
                 "8 - 11": 18,
@@ -112,7 +112,7 @@
                 "20 or more": 1
             }
         },
-        "Essay Questions": {
+        "Essay_Questions": {
             "summarize your reaction to this course": [
                 "Professor Bain is a great professor! He is knowledgeable and truly cares about the success of his students. Highly recommend taking a class with him!",
                 "It was a fun course to start learning to code through python. Exams are pretty good if you go through most of the lecture quizzes and practice tests.",
@@ -142,33 +142,33 @@
         "quarter": "winter",
         "year": 2022,
         "professor": "Sara Owsley",
-        "Courses Audience": 260,
-        "Responses Received": 183,
-        "Response Ratio": 70.4,
-        "Course Questions" : {
-            "overall rating of the instruction": {
-                "Response Count": 179,
+        "audience": 260,
+        "received": 183,
+        "response_ratio": 70.4,
+        "Course_Questions" : {
+            "instruction": {
+                "responses": 179,
                 "Mean": 5.50
             },
-            "overall rating of the course": {
-                "Response Count": 179,
+            "course": {
+                "responses": 179,
                 "Mean":  4.93
             },
-            "how much you learned": {
-                "Response Count": 180,
+            "learned": {
+                "responses": 180,
                 "Mean": 4.78
             },
-            "effectiveness of the course in challenging you intellectually": {
-                "Response Count": 179,
+            "challenging": {
+                "responses": 179,
                 "Mean":   4.64
             },
-            "effectiveness of the instructor in stimulating your interest in the subject": {
-                "Response Count": 178,
+            "stimulating": {
+                "responses": 178,
                 "Mean": 5.23
             }
         },
-        "Time-Survey Question": {
-            "average number of hours per week spent on this course outside of class and lab time":{
+        "Time_Question": {
+            "hours":{
                 "3 or fewer":66,
                 "4-7 ":92,
                 "8 - 11": 21,
@@ -177,7 +177,7 @@
                 "20 or more": 0
             }
         },
-        "Essay Questions": {
+        "Essay_Questions": {
             "summarize your reaction to this course": [
                 "Sara is one of the best professors. Really understands the needs of students, gives helpful advice on careers and just navigating the CS class successfully. She dropped some of the lectures during a week which was difficult for students cos of midterms and all. She held one on one student advising sessions which were really helpful!",
                 "I really enjoyed this course. I was a little bit familiar with coding before taking this class, but I feel so much more comfortable with it now. Sara is a great professor who cares a lot about whether you understand the course material. She is so good at answering questions and makes herself available if you ever need help. There are also so many peer mentor office hours which makes it really easy to get help if you are stuck on homework or studying.",
@@ -214,33 +214,33 @@
         "quarter": "winter",
         "year": 2022,
         "professor": "Benjamin Golub",
-        "Courses Audience": 110,
-        "Responses Received": 93,
-        "Response Ratio": 84.5,
-        "Course Questions" : {
-            "overall rating of the instruction": {
-                "Response Count": 87,
+        "audience": 110,
+        "received": 93,
+        "response_ratio": 84.5,
+        "Course_Questions" : {
+            "instruction": {
+                "responses": 87,
                 "Mean":   4.63
             },
-            "overall rating of the course": {
-                "Response Count": 89,
+            "course": {
+                "responses": 89,
                 "Mean":  3.91
             },
-            "how much you learned": {
-                "Response Count": 89,
+            "learned": {
+                "responses": 89,
                 "Mean": 4.64
             },
-            "effectiveness of the course in challenging you intellectually": {
-                "Response Count": 89,
+            "challenging": {
+                "responses": 89,
                 "Mean":   5.48
             },
-            "effectiveness of the instructor in stimulating your interest in the subject": {
-                "Response Count": 88,
+            "stimulating": {
+                "responses": 88,
                 "Mean":   4.42
             }
         },
-        "Time-Survey Question": {
-            "average number of hours per week spent on this course outside of class and lab time":{
+        "Time_Question": {
+            "hours":{
                 "3 or fewer":1,
                 "4-7 ":9,
                 "8 - 11": 23,
@@ -249,7 +249,7 @@
                 "20 or more": 16
             }
         },
-        "Essay Questions": {
+        "Essay_Questions": {
             "summarize your reaction to this course": [
                 "Problem sets can be long and difficult. Exams are hard. Seems standard for CS 212. Golub is an excellent lecturer.",
                 "This course is obviously hard but with enough effort and textbook reading it is manageable. Golub is a great professor who keeps you engaged during the entire class.",
@@ -265,8 +265,8 @@
                 "Very time consuming class. The course content was more interesting than I expected",
                 "If you have taken proof–based math classes before and enjoy math, the class might be okay for you. However, I don't think it really treats students who have never written proofs before fairly, and this is a large portion of the class. I've heard from friends that the class is easier with different profs, so maybe wait for a different quarter to take it if you're not very math–oriented. As a mathy person, the class was alright for me but the weekly problem sets did take a solid 3–4 hours of my time.",
                 "I learned how to think like a mathematician.",
-                "Professor Golub meant really well but this class could have gone a lot better. I understand that we're his first experience with this course, but there were constant errors and typos on the homeworks that would sometimes only be corrected a few days before they were due. There was constant miscommunication about grading (for example, repeatedly saying leading up to the midterm that a 70% would be an A with the rest as "bonus," but then actually making the cutoff for an A an 80%.) As a math major forced into taking this class for a CS degree, I also just think that there was a lot of disorganization in terms of material. At this point in the course, we're expected to draw from multiple textbooks in what we study and aren't given any definitions in lecture. This makes completing the problem sets extremely annoying, because on top of problems being assigned in different books, there are different definitions within each that, although not necessarily contradict one another, can confound so many concepts. This class was not enjoyable, and I didn't get much out of it. I hope this goes better for whatever group takes it next.",
-                "To be honest, I did learn a LOT in this class. However, this class took an insane amount of time outside of class. The problem sets each week got longer and longer despite him saying that it gets easier after the "trial by fire" problem set in week 3. At one point, we had a problem set where there was 5 questions but each question had subparts and the subparts themselves had subparts that were all proofs. Every week I am in misery because of the problem set and it consumes my entire life and soul. The exams are also quite brutal. For the class itself, Golub just sometimes gave up on Fridays and would post a sequence of Youtube videos? He would also get confused sometimes in the middle of class and then tell us something extremely questionable that he has to correct the following class. For the most part, he was an alright lecturer and this class has potential to be a good class with some adjustments (I would cut him some slack since this was his first time running this class).",
+                "Professor Golub meant really well but this class could have gone a lot better. I understand that we're his first experience with this course, but there were constant errors and typos on the homeworks that would sometimes only be corrected a few days before they were due. There was constant miscommunication about grading (for example, repeatedly saying leading up to the midterm that a 70% would be an A with the rest as \"bonus,\" but then actually making the cutoff for an A an 80%.) As a math major forced into taking this class for a CS degree, I also just think that there was a lot of disorganization in terms of material. At this point in the course, we're expected to draw from multiple textbooks in what we study and aren't given any definitions in lecture. This makes completing the problem sets extremely annoying, because on top of problems being assigned in different books, there are different definitions within each that, although not necessarily contradict one another, can confound so many concepts. This class was not enjoyable, and I didn't get much out of it. I hope this goes better for whatever group takes it next.",
+                "To be honest, I did learn a LOT in this class. However, this class took an insane amount of time outside of class. The problem sets each week got longer and longer despite him saying that it gets easier after the \"trial by fire\" problem set in week 3. At one point, we had a problem set where there was 5 questions but each question had subparts and the subparts themselves had subparts that were all proofs. Every week I am in misery because of the problem set and it consumes my entire life and soul. The exams are also quite brutal. For the class itself, Golub just sometimes gave up on Fridays and would post a sequence of Youtube videos? He would also get confused sometimes in the middle of class and then tell us something extremely questionable that he has to correct the following class. For the most part, he was an alright lecturer and this class has potential to be a good class with some adjustments (I would cut him some slack since this was his first time running this class).",
                 "The best class that I've taken in Northwestern so far. Prof Golub was very interactive and the content was very interesting. The problem sets take a lot of time but help you understand the lecture. Although it is definitely a hard class, it improved my thinking and problem solving skills a lot. Take it from Benjamin Golub if you can.",
                 "This class is very difficult and time consuming. The first part of the quarter was easy enough as it introduced the types of proofs and applying those to simple number theory examples, but the rest of the quarter ramps up exponentially when talking about matching, graphs, and probability spaces. The homeworks can take easily more than 15 hours per week, and office hours are essential. Golub is very passionate about the subject and will thus assign more problems/homeworks than the syllabus suggests. He loves his graphs so be prepared to see lots of problems related to those. Office hours and finding a collaborative group to work with are essential."
             ]
@@ -281,33 +281,33 @@
         "quarter": "winter",
         "year": 2021,
         "professor": "Sarah Van Wart",
-        "Courses Audience": 193,
-        "Responses Received": 153,
-        "Response Ratio": 79.3,
-        "Course Questions" : {
-            "overall rating of the instruction": {
-                "Response Count": 150,
+        "audience": 193,
+        "received": 153,
+        "response_ratio": 79.3,
+        "Course_Questions" : {
+            "instruction": {
+                "responses": 150,
                 "Mean":  5.69
             },
-            "overall rating of the course": {
-                "Response Count": 152,
+            "course": {
+                "responses": 152,
                 "Mean": 5.42
             },
-            "how much you learned": {
-                "Response Count": 151,
+            "learned": {
+                "responses": 151,
                 "Mean": 5.39
             },
-            "effectiveness of the course in challenging you intellectually": {
-                "Response Count": 152,
+            "challenging": {
+                "responses": 152,
                 "Mean":   5.04
             },
-            "effectiveness of the instructor in stimulating your interest in the subject": {
-                "Response Count": 151,
+            "stimulating": {
+                "responses": 151,
                 "Mean": 5.55
             }
         },
-        "Time-Survey Question": {
-            "average number of hours per week spent on this course outside of class and lab time":{
+        "Time_Question": {
+            "hours":{
                 "3 or fewer":66,
                 "4-7 ":73,
                 "8 - 11": 13,
@@ -316,7 +316,7 @@
                 "20 or more": 0
             }
         },
-        "Essay Questions": {
+        "Essay_Questions": {
             "summarize your reaction to this course": [
                 "Great foundation for learning the Python language at a great pace with some challenging elements",
                 "This class is super easy. Highly recommend!",
@@ -351,33 +351,33 @@
         "quarter": "spring",
         "year": 2021,
         "professor": "Sarah Van Wart",
-        "Courses Audience": 49,
-        "Responses Received": 34,
-        "Response Ratio": 69.4,
-        "Course Questions" : {
-            "overall rating of the instruction": {
-                "Response Count": 33,
+        "audience": 49,
+        "received": 34,
+        "response_ratio": 69.4,
+        "Course_Questions" : {
+            "instruction": {
+                "responses": 33,
                 "Mean":  5.79
             },
-            "overall rating of the course": {
-                "Response Count": 32,
+            "course": {
+                "responses": 32,
                 "Mean":  5.53
             },
-            "how much you learned": {
-                "Response Count": 32,
+            "learned": {
+                "responses": 32,
                 "Mean":   5.66
             },
-            "effectiveness of the course in challenging you intellectually": {
-                "Response Count": 32,
+            "challenging": {
+                "responses": 32,
                 "Mean":    5.50
             },
-            "effectiveness of the instructor in stimulating your interest in the subject": {
-                "Response Count": 33,
+            "stimulating": {
+                "responses": 33,
                 "Mean":   5.79
             }
         },
-        "Time-Survey Question": {
-            "average number of hours per week spent on this course outside of class and lab time":{
+        "Time_Question": {
+            "hours":{
                 "3 or fewer":12,
                 "4-7 ":19,
                 "8 - 11": 3,
@@ -386,7 +386,7 @@
                 "20 or more": 0
             }
         },
-        "Essay Questions": {
+        "Essay_Questions": {
             "summarize your reaction to this course": [
                 "This class was super interesting. It was super manageable if you have zero coding experience. Sarah is a great professor who is super excited about the material we discuss and is always willing to help if you have questions or issues with your code. After this class, I have a solid foundation for the basics of building a website.",
                 "Please take this class! Prof. Van Wart is very helpful, cheerful, and open to questions. She is very good at explaining how the website works.",
