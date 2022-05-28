@@ -1,5 +1,5 @@
-{
-    "class_1" : {
+[
+    {
         "department" : "COMP_SCI",
         "course_number": 212,
         "course name": "Mathematical Found of Comp Sci",
@@ -70,7 +70,7 @@
         }
     },
 
-    "class_2" : {
+    {
         "department" : "COMP_SCI",
         "course_number": 110,
         "course name": "Intro to Computer Programming",
@@ -135,7 +135,7 @@
     },
 
 
-    "class_3" : {
+    {
         "department" : "COMP_SCI",
         "course_number": 111,
         "course name": "Fund Comp Prog",
@@ -206,8 +206,7 @@
     },
 
 
-
-    "class_4" : {
+    {
         "department" : "COMP_SCI",
         "course_number": 212,
         "course name": "Mathematical Found of Comp Sci",
@@ -274,7 +273,7 @@
     },
 
 
-    "class_5" : {
+    {
         "department" : "COMP_SCI",
         "course_number": 110,
         "course name": "Intro to Computer Programming",
@@ -344,7 +343,7 @@
         }
     },
 
-    "class_6" : {
+    {
         "department" : "COMP_SCI",
         "course_number": 130,
         "course name": "Tools and Tech WWW",
@@ -405,6 +404,4 @@
             ]
         }
     }
-
-
-}
+]
