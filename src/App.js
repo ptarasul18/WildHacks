@@ -26,11 +26,34 @@ console.log(ctecs.filter(ctec => ctec.course_number == 110))
 
 const App = () =>  {
 
+  const [dept1, setDept1] = useState(false);
+  const [courseNum1, setCourseNum1] = useState(false);
+  const [prof1, setProf1] = useState(false);
+  const [qtr1, setQtr1] = useState(false);
+  const [year1, setYear1] = useState(false); 
+
+  const [dept2, setDept2] = useState(false);
+  const [courseNum2, setCourseNum2] = useState(false);
+  const [prof2, setProf2] = useState(false);
+  const [qtr2, setQtr2] = useState(false);
+  const [year2, setYear2] = useState(false);
+
+  let uniqueDepts1 = [...new Set(ctecs.map(ctec => ctec.department))].map(dept => ({'value':dept, 'label':dept}));
+  let uniqueCourseNums1 = [...new Set(ctecs.map(ctec => ctec.course_number))].map(num => ({'value':num, 'label':num}));
+  let uniqueProfs1 = [...new Set(ctecs.map(ctec => ctec.professor))].map(prof => ({'value':prof, 'label':prof}));
+  let uniqueQtrs1 = [...new Set(ctecs.map(ctec => ctec.quarter))].map(qtr => ({'value':qtr, 'label':qtr}));
+  let uniqueYears1 = [...new Set(ctecs.map(ctec => ctec.year))].map(year => ({'value':year, 'label':year}));
+
   let uniqueDepts = [...new Set(ctecs.map(ctec => ctec.department))].map(dept => ({'value':dept, 'label':dept}));
   let uniqueCourseNums = [...new Set(ctecs.map(ctec => ctec.course_number))].map(num => ({'value':num, 'label':num}));
   let uniqueProfs = [...new Set(ctecs.map(ctec => ctec.professor))].map(prof => ({'value':prof, 'label':prof}));
   let uniqueQtrs = [...new Set(ctecs.map(ctec => ctec.quarter))].map(qtr => ({'value':qtr, 'label':qtr}));
   let uniqueYears = [...new Set(ctecs.map(ctec => ctec.year))].map(year => ({'value':year, 'label':year}));
+  // let uniqueDepts = [...new Set(ctecs.map(ctec => ctec.department))].map(dept => ({'value':dept, 'label':dept}));
+  // let uniqueCourseNums = [...new Set(ctecs.map(ctec => ctec.course_number))].map(num => ({'value':num, 'label':num}));
+  // let uniqueProfs = [...new Set(ctecs.map(ctec => ctec.professor))].map(prof => ({'value':prof, 'label':prof}));
+  // let uniqueQtrs = [...new Set(ctecs.map(ctec => ctec.quarter))].map(qtr => ({'value':qtr, 'label':qtr}));
+  // let uniqueYears = [...new Set(ctecs.map(ctec => ctec.year))].map(year => ({'value':year, 'label':year}));
 
   return(
   <div>
@@ -47,24 +70,28 @@ const App = () =>  {
             options={uniqueDepts}
             placeholder="Department"
             isClearable = {true}
+            onChange={(e) => setDept1(e.value)}
         />
         <Select
             value={uniqueCourseNums.value}
             options={uniqueCourseNums}
             placeholder="Course #"
             isClearable = {true}
+            onChange={(e) => setCourseNum1(e)}
         />
         <Select
             value={uniqueProfs.value}
             options={uniqueProfs}
             placeholder="Professor"
             isClearable = {true}
+            onChange={(e) => setQtr1(e.value)}
         />
         <Select
             value={uniqueQtrs.value}
             options={uniqueQtrs}
             placeholder="Quarter"
             isClearable = {true}
+            onChange={(e) => setYear1(e.value)}
         />
         <Select
             value={uniqueYears.value}
