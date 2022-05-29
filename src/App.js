@@ -119,26 +119,31 @@ const App = () =>  {
           value={uniqueDepts.value}
           options={uniqueDepts}
           placeholder="Department"
+          isClearable = {true}
       />
       <Select
           value={uniqueCourseNums.value}
           options={uniqueCourseNums}
           placeholder="Course #"
+          isClearable = {true}
       />
       <Select
           value={uniqueProfs.value}
           options={uniqueProfs}
           placeholder="Professor"
+          isClearable = {true}
       />
       <Select
           value={uniqueQtrs.value}
           options={uniqueQtrs}
           placeholder="Quarter"
+          isClearable = {true}
       />
       <Select
           value={uniqueYears.value}
           options={uniqueYears}
           placeholder="Year"
+          isClearable = {true}
       />
 
 
