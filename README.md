@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `Imports and Installs`
 npm i react-select \
 npm i bootstrap \
-npm install react-bootstrap bootstrap \
+npm install react-bootstrap bootstrap
 
 ### `npm start`
 
