@@ -1,10 +1,10 @@
 [
     {
-        "department" : "COMP_SCI",
+        "department" : "CS",
         "course_number": 212,
         "course name": "Mathematical Found of Comp Sci",
-        "quarter": "Winter",
-        "year": 2021,
+        "quarter": "W",
+        "year": 21,
         "professor": "Aravindan Vijayaraghavan",
         "audience": 95,
         "received": 78,
@@ -71,11 +71,11 @@
     },
 
     {
-        "department" : "COMP_SCI",
+        "department" : "CS",
         "course_number": 110,
         "course name": "Intro to Computer Programming",
-        "quarter": "Winter",
-        "year": 2022,
+        "quarter": "W",
+        "year": 22,
         "professor": "Connor Bain",
         "audience": 190,
         "received": 145,
@@ -136,11 +136,11 @@
 
 
     {
-        "department" : "COMP_SCI",
+        "department" : "CS",
         "course_number": 111,
         "course name": "Fund Comp Prog",
-        "quarter": "Winter",
-        "year": 2022,
+        "quarter": "W",
+        "year": 22,
         "professor": "Sara Owsley",
         "audience": 260,
         "received": 183,
@@ -207,11 +207,11 @@
 
 
     {
-        "department" : "COMP_SCI",
+        "department" : "CS",
         "course_number": 212,
         "course name": "Mathematical Found of Comp Sci",
-        "quarter": "Winter",
-        "year": 2022,
+        "quarter": "W",
+        "year": 22,
         "professor": "Benjamin Golub",
         "audience": 110,
         "received": 93,
@@ -274,11 +274,11 @@
 
 
     {
-        "department" : "COMP_SCI",
+        "department" : "CS",
         "course_number": 110,
         "course name": "Intro to Computer Programming",
-        "quarter": "Winter",
-        "year": 2021,
+        "quarter": "W",
+        "year": 21,
         "professor": "Sarah Van Wart",
         "audience": 193,
         "received": 153,
@@ -344,11 +344,11 @@
     },
 
     {
-        "department" : "COMP_SCI",
+        "department" : "CS",
         "course_number": 130,
         "course name": "Tools and Tech WWW",
-        "quarter": "Spring",
-        "year": 2021,
+        "quarter": "SP",
+        "year": 21,
         "professor": "Sarah Van Wart",
         "audience": 49,
         "received": 34,

@@ -113,43 +113,72 @@ const App = () =>  {
     <h1>{ ranker.title }</h1>
     <CourseList courses={ ctecs } />
 
-    <div id="dropdowns">
-    <form action="/action_page.php">
-      <Select
-          value={uniqueDepts.value}
-          options={uniqueDepts}
-          placeholder="Department"
-          isClearable = {true}
-      />
-      <Select
-          value={uniqueCourseNums.value}
-          options={uniqueCourseNums}
-          placeholder="Course #"
-          isClearable = {true}
-      />
-      <Select
-          value={uniqueProfs.value}
-          options={uniqueProfs}
-          placeholder="Professor"
-          isClearable = {true}
-      />
-      <Select
-          value={uniqueQtrs.value}
-          options={uniqueQtrs}
-          placeholder="Quarter"
-          isClearable = {true}
-      />
-      <Select
-          value={uniqueYears.value}
-          options={uniqueYears}
-          placeholder="Year"
-          isClearable = {true}
-      />
+    <div class="dropdowns">
+      <div class="dropdown" id="course1">
+        <Select
+            value={uniqueDepts.value}
+            options={uniqueDepts}
+            placeholder="Department"
+            isClearable = {true}
+        />
+        <Select
+            value={uniqueCourseNums.value}
+            options={uniqueCourseNums}
+            placeholder="Course #"
+            isClearable = {true}
+        />
+        <Select
+            value={uniqueProfs.value}
+            options={uniqueProfs}
+            placeholder="Professor"
+            isClearable = {true}
+        />
+        <Select
+            value={uniqueQtrs.value}
+            options={uniqueQtrs}
+            placeholder="Quarter"
+            isClearable = {true}
+        />
+        <Select
+            value={uniqueYears.value}
+            options={uniqueYears}
+            placeholder="Year"
+            isClearable = {true}
+        />
+      </div>
 
-
-      <br></br>
-      <input type="submit" value="Submit" />
-    </form>
+      <div class="dropdown" id="course2">
+        <Select
+            value={uniqueDepts.value}
+            options={uniqueDepts}
+            placeholder="Department"
+            isClearable = {true}
+        />
+        <Select
+            value={uniqueCourseNums.value}
+            options={uniqueCourseNums}
+            placeholder="Course #"
+            isClearable = {true}
+        />
+        <Select
+            value={uniqueProfs.value}
+            options={uniqueProfs}
+            placeholder="Professor"
+            isClearable = {true}
+        />
+        <Select
+            value={uniqueQtrs.value}
+            options={uniqueQtrs}
+            placeholder="Quarter"
+            isClearable = {true}
+        />
+        <Select
+            value={uniqueYears.value}
+            options={uniqueYears}
+            placeholder="Year"
+            isClearable = {true}
+        />
+      </div>
     </div>
 
   </div>
