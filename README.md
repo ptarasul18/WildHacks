@@ -6,10 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-## Imports and Installs
-npm i react-select
-npm i bootstrap
-npm install react-bootstrap bootstrap
+## `Imports and Installs`
+npm i react-select \
+npm i bootstrap \
+npm install react-bootstrap bootstrap \
 
 ### `npm start`
 
