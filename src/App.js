@@ -19,6 +19,8 @@ const CourseList = ({ courses }) => (
   </div>
 );
 
+console.log(ctecs.filter(ctec => ctec.professor.includes("Aravindan")))
+console.log(ctecs.filter(ctec => ctec.course_number == 110))
 
 const App = () =>  {
 
@@ -33,8 +35,8 @@ const App = () =>  {
     <h1>{ ranker.title }</h1>
     <CourseList courses={ ctecs } />
 
-    <div class="dropdowns">
-      <div class="dropdown" id="course1">
+    <div className="dropdowns">
+      <div className="dropdown" id="course1">
         <Select
             value={uniqueDepts.value}
             options={uniqueDepts}
@@ -67,7 +69,7 @@ const App = () =>  {
         />
       </div>
 
-      <div class="dropdown" id="course2">
+      <div className="dropdown" id="course2">
         <Select
             value={uniqueDepts.value}
             options={uniqueDepts}
@@ -183,8 +185,7 @@ export default App;
 // <QtrDropdown courses = {ctecs} />
 // <YearDropdown courses = {ctecs} />
 
-// console.log(ctecs.filter(ctec => ctec.professor.includes("Aravindan")))
-// console.log(ctecs.filter(ctec => ctec.course_number == 110))
+
 
 // import logo from './logo.svg';
 // import './App.css';
