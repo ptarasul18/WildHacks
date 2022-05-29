@@ -1,5 +1,7 @@
 import React from 'react';
 import Select from 'react-select';
+import './App.css';
+import Stack from 'react-bootstrap/Stack'
 
 const ctecs = require('./ctecs.json');
 
@@ -36,6 +38,9 @@ const App = () =>  {
     <CourseList courses={ ctecs } />
 
     <div className="dropdowns">
+    <Stack direction="horizontal" gap={3}>
+    <div className="container">
+      <Stack gap={3}>
       <div className="dropdown" id="course1">
         <Select
             value={uniqueDepts.value}
@@ -68,7 +73,12 @@ const App = () =>  {
             isClearable = {true}
         />
       </div>
+      <div><p>{"hello"}</p></div>
+      </Stack>
+      </div>
 
+      <div className="container">
+      <Stack gap={3}>
       <div className="dropdown" id="course2">
         <Select
             value={uniqueDepts.value}
@@ -101,6 +111,10 @@ const App = () =>  {
             isClearable = {true}
         />
       </div>
+      <div><p>{"hello"}</p></div>
+      </Stack>
+      </div>
+      </Stack>
     </div>
 
   </div>
