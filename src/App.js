@@ -19,85 +19,6 @@ const CourseList = ({ courses }) => (
   </div>
 );
 
-// const ProfOption = (prof) => {
-//   return (
-//   <option value ={prof}>{prof}</option>
-//   );
-// };
-
-// const ProfDropdown = ({ courses }) => {
-//   let uniqueProfs = [...new Set(courses.map(ctec => ctec.professor))];
-//   return (
-//   <select name="profs" id="profs">
-//     { uniqueProfs.map(ProfOption) }
-//   </select>);
-// };
-
-// const DeptOption = (dept) => {
-//   return (
-//   <option value ={dept}>{dept}</option>
-//   );
-// };
-
-// const DeptDropdown = ({ courses }) => {
-//   let uniqueDepts = [...new Set(courses.map(ctec => ctec.department))];
-//   return (
-//   <select name="depts" id="depts">
-//     { uniqueDepts.map(DeptOption) }
-//   </select>);
-// };
-
-// const CourseNumOption = (course) => {
-//   return (
-//   <option value ={course}>{course}</option>
-//   );
-// };
-
-// const CourseNumDropdown = ({ courses }) => {
-//   let uniqueCourses = [...new Set(courses.map(ctec => ctec.course_number))];
-//   return (
-//   <select name="course" id="course">
-//     { uniqueCourses.map(CourseNumOption) }
-//   </select>);
-// };
-
-// const QtrOption = (qtr) => {
-//   return (
-//   <option value ={qtr}>{qtr}</option>
-//   );
-// };
-
-// const QtrDropdown = ({ courses }) => {
-//   let uniqueCourses = [...new Set(courses.map(ctec => ctec.quarter))];
-//   return (
-//   <select name="qtrs" id="qtrs">
-//     { uniqueCourses.map(QtrOption) }
-//   </select>);
-// };
-
-// const YearOption = (year) => {
-//   const dummy = `<option value="none">Select an Option</option>`;
-//   return dummy + (
-//     <option value ={year}>{year}</option>
-//   );
-// };
-
-// const YearDropdown = ({ courses }) => {
-//   let uniqueYears = [...new Set(courses.map(ctec => ctec.year))];
-//   return (
-//   <select name="years" id="years">
-//     { uniqueYears.map(YearOption) }
-//   </select>);
-// };
-// <DeptDropdown courses = {ctecs} />
-// <CourseNumDropdown courses = {ctecs} />
-// <ProfDropdown courses = {ctecs} />
-// <QtrDropdown courses = {ctecs} />
-// <YearDropdown courses = {ctecs} />
-
-// console.log(ctecs.filter(ctec => ctec.professor.includes("Aravindan")))
-// console.log(ctecs.filter(ctec => ctec.course_number == 110))
-
 
 const App = () =>  {
 
@@ -106,8 +27,7 @@ const App = () =>  {
   let uniqueProfs = [...new Set(ctecs.map(ctec => ctec.professor))].map(prof => ({'value':prof, 'label':prof}));
   let uniqueQtrs = [...new Set(ctecs.map(ctec => ctec.quarter))].map(qtr => ({'value':qtr, 'label':qtr}));
   let uniqueYears = [...new Set(ctecs.map(ctec => ctec.year))].map(year => ({'value':year, 'label':year}));
-  // const temp = [... new Set(uniqueYears)]
-  console.log(uniqueYears)
+
   return(
   <div>
     <h1>{ ranker.title }</h1>
@@ -186,6 +106,85 @@ const App = () =>  {
 };
 
 export default App;
+
+// const ProfOption = (prof) => {
+//   return (
+//   <option value ={prof}>{prof}</option>
+//   );
+// };
+
+// const ProfDropdown = ({ courses }) => {
+//   let uniqueProfs = [...new Set(courses.map(ctec => ctec.professor))];
+//   return (
+//   <select name="profs" id="profs">
+//     { uniqueProfs.map(ProfOption) }
+//   </select>);
+// };
+
+// const DeptOption = (dept) => {
+//   return (
+//   <option value ={dept}>{dept}</option>
+//   );
+// };
+
+// const DeptDropdown = ({ courses }) => {
+//   let uniqueDepts = [...new Set(courses.map(ctec => ctec.department))];
+//   return (
+//   <select name="depts" id="depts">
+//     { uniqueDepts.map(DeptOption) }
+//   </select>);
+// };
+
+// const CourseNumOption = (course) => {
+//   return (
+//   <option value ={course}>{course}</option>
+//   );
+// };
+
+// const CourseNumDropdown = ({ courses }) => {
+//   let uniqueCourses = [...new Set(courses.map(ctec => ctec.course_number))];
+//   return (
+//   <select name="course" id="course">
+//     { uniqueCourses.map(CourseNumOption) }
+//   </select>);
+// };
+
+// const QtrOption = (qtr) => {
+//   return (
+//   <option value ={qtr}>{qtr}</option>
+//   );
+// };
+
+// const QtrDropdown = ({ courses }) => {
+//   let uniqueCourses = [...new Set(courses.map(ctec => ctec.quarter))];
+//   return (
+//   <select name="qtrs" id="qtrs">
+//     { uniqueCourses.map(QtrOption) }
+//   </select>);
+// };
+
+// const YearOption = (year) => {
+//   const dummy = `<option value="none">Select an Option</option>`;
+//   return dummy + (
+//     <option value ={year}>{year}</option>
+//   );
+// };
+
+// const YearDropdown = ({ courses }) => {
+//   let uniqueYears = [...new Set(courses.map(ctec => ctec.year))];
+//   return (
+//   <select name="years" id="years">
+//     { uniqueYears.map(YearOption) }
+//   </select>);
+// };
+// <DeptDropdown courses = {ctecs} />
+// <CourseNumDropdown courses = {ctecs} />
+// <ProfDropdown courses = {ctecs} />
+// <QtrDropdown courses = {ctecs} />
+// <YearDropdown courses = {ctecs} />
+
+// console.log(ctecs.filter(ctec => ctec.professor.includes("Aravindan")))
+// console.log(ctecs.filter(ctec => ctec.course_number == 110))
 
 // import logo from './logo.svg';
 // import './App.css';
