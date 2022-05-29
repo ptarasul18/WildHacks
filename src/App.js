@@ -1,18 +1,50 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Select from 'react-select';
 import './App.css';
 import Stack from 'react-bootstrap/Stack'
 
+
 const ctecs = require('./ctecs.json');
 
 const ranker = {
-  title: "CTEC Course Ranker .... SeeCATS, not CTECs ;)"
+  title: "Cats' SeeTECs"
 };
 
 const Course = ({ course }) => (
   <div>
     <p>{course.department} {course.course_number} by {course.professor} in {course.quarter} {course.year}</p>
   </div>
+);
+
+const CourseCTECs = ({ course }) => (
+  <Stack gap={3}>
+  <div>
+    <p>{course.department} {course.course_number} by {course.professor} in {course.quarter} {course.year}</p>
+  </div>
+  <div>
+    <p>Responses: {course.received}/{course.audience}</p>
+  </div>
+  <div>
+    <p>Instruction score: {course.Course_Questions.instruction.Mean}</p>
+  </div>
+  <div>
+    <p>Overall course rating: {course.Course_Questions.course.Mean}</p>
+  </div>
+  <div>
+    <Stack gap={1}>
+      <h4>Average hours outside class and lab time</h4>
+      <p>3 or fewer: {course.Time_Question.hours["3 or fewer"]} responses</p>
+      <p>4-7: {course.Time_Question.hours["4-7 "]} responses</p>
+      <p>8-11: {course.Time_Question.hours["8 - 11"]} responses</p>
+      <p>12-15: {course.Time_Question.hours["12 - 15"]} responses</p>
+      <p>16-19: {course.Time_Question.hours["16 - 19"]} responses</p>
+      <p>20 or more: {course.Time_Question.hours["20 or more"]} responses</p>
+    </Stack>
+  </div>
+  <div>
+    <p>Amount learned rating: {course.Course_Questions.learned.Mean}</p>
+  </div>
+  </Stack>
 );
 
 const CourseList = ({ courses }) => (
@@ -26,11 +58,11 @@ console.log(ctecs.filter(ctec => ctec.course_number == 110))
 
 const App = () =>  {
 
-  const [dept1, setDept1] = useState(false);
-  const [courseNum1, setCourseNum1] = useState(false);
-  const [prof1, setProf1] = useState(false);
-  const [qtr1, setQtr1] = useState(false);
-  const [year1, setYear1] = useState(false); 
+  const [dept1, setDept1] = useState("CS");
+  const [courseNum1, setCourseNum1] = useState("212");
+  const [prof1, setProf1] = useState("Aravindan Vijayaraghavan");
+  const [qtr1, setQtr1] = useState("W");
+  const [year1, setYear1] = useState("21"); 
 
   const [dept2, setDept2] = useState(false);
   const [courseNum2, setCourseNum2] = useState(false);
@@ -58,7 +90,7 @@ const App = () =>  {
   return(
   <div>
     <h1>{ ranker.title }</h1>
-    <CourseList courses={ ctecs } />
+    {/* <CourseList courses={ ctecs } /> */}
 
     <div className="dropdowns">
     <Stack direction="horizontal" gap={3}>
@@ -100,7 +132,7 @@ const App = () =>  {
             isClearable = {true}
         />
       </div>
-      <div><p>{"hello"}</p></div>
+      <div><CourseCTECs course={ ctecs[0] } /></div>
       </Stack>
       </div>
 
@@ -138,7 +170,7 @@ const App = () =>  {
             isClearable = {true}
         />
       </div>
-      <div><p>{"hello"}</p></div>
+      <div><CourseCTECs course={ ctecs[1] } /></div>
       </Stack>
       </div>
       </Stack>

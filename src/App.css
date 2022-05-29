@@ -30,6 +30,7 @@
 
 .dropdown {
   display: flex;
+  font-size: 5;
 }
 
 @keyframes App-logo-spin {
